@@ -1,0 +1,123 @@
+{
+  "sources": [
+    {
+      "from": "https://github.com/react/react/tree/a703ca64f9ea5c1b650af0face1a98fb8c6b3a13",
+      "commit": "a703ca64f9ea5c1b650af0face1a98fb8c6b3a13",
+      "license": "MIT",
+      "read": "2026-10-30",
+      "informed": [
+        "docs/v19/core/react-components/references/react-19-apis.md",
+        "docs/v19/testing/react-debugging/SKILL.md",
+        "docs/v19/production/react-security/SKILL.md",
+        "docs/v19/production/react-performance/SKILL.md",
+        "docs/v19/core/react-suspense-and-concurrency/SKILL.md",
+        "docs/v19/core/react-hooks-and-effects/SKILL.md"
+      ],
+      "copied": false
+    },
+    {
+      "from": "https://github.com/reactjs/react.dev/tree/0821e7d9428a6c58c922765b891bbffba9ed6249",
+      "commit": "0821e7d9428a6c58c922765b891bbffba9ed6249",
+      "license": "CC-BY-4.0",
+      "read": "2026-10-30",
+      "informed": [
+        "docs/v19/core/react-components/references/react-19-apis.md",
+        "docs/v19/ui/react-animation/SKILL.md",
+        "docs/v19/testing/react-debugging/SKILL.md",
+        "docs/v19/data-and-routing/react-forms/SKILL.md",
+        "docs/v19/core/react-hooks-and-effects/SKILL.md",
+        "docs/v19/production/react-performance/references/react-compiler.md",
+        "docs/v19/production/react-security/SKILL.md",
+        "docs/v19/core/react-server-components/SKILL.md",
+        "docs/v19/core/react-server-components/references/rsc-serialization-and-caching.md",
+        "docs/v19/core/react-hooks-and-effects/references/effects-cookbook.md"
+      ],
+      "copied": false
+    },
+    {
+      "from": "https://github.com/vercel-labs/agent-skills/tree/1a2c79d4e6c4a2283dc2c614b6538cbe1ed5ca62",
+      "commit": "1a2c79d4e6c4a2283dc2c614b6538cbe1ed5ca62",
+      "license": "No LICENSE file (README and skill front matter state MIT): facts only",
+      "read": "2026-10-30",
+      "informed": [
+        "docs/v19/ui/react-animation/SKILL.md",
+        "docs/v19/testing/react-debugging/SKILL.md",
+        "docs/v19/production/react-performance/SKILL.md",
+        "docs/v19/core/react-server-components/SKILL.md",
+        "docs/v19/core/react-composition-patterns/SKILL.md"
+      ],
+      "copied": false
+    },
+    {
+      "from": "https://github.com/remix-run/react-router/tree/5db4b541cde0d20a92bfe02c452425a056be38ef/.agents/skills/react-router",
+      "commit": "5db4b541cde0d20a92bfe02c452425a056be38ef",
+      "license": "MIT",
+      "read": "2026-10-30",
+      "informed": [
+        "docs/v19/data-and-routing/react-router-data-mode/SKILL.md"
+      ],
+      "copied": false
+    },
+    {
+      "from": "https://github.com/TanStack/router/tree/da2adec76dbe6c0da6d6a0d5640f7b9388217f45",
+      "commit": "da2adec76dbe6c0da6d6a0d5640f7b9388217f45",
+      "license": "MIT",
+      "read": "2026-10-30",
+      "informed": [
+        "docs/v19/data-and-routing/tanstack-router/SKILL.md"
+      ],
+      "copied": false
+    },
+    {
+      "from": "https://github.com/TanStack/table/tree/c14e0221b1e656c7bb35e7b3d4cdf188719a3599",
+      "commit": "c14e0221b1e656c7bb35e7b3d4cdf188719a3599",
+      "license": "MIT",
+      "read": "2026-10-30",
+      "informed": [
+        "docs/v19/ui/react-data-tables/SKILL.md"
+      ],
+      "copied": false
+    },
+    {
+      "from": "https://github.com/ChromeDevTools/chrome-devtools-mcp/tree/8d009e854f8aa55b1ec31628e836d4d4731b8ec8/docs",
+      "commit": "8d009e854f8aa55b1ec31628e836d4d4731b8ec8",
+      "license": "Apache-2.0",
+      "read": "2026-10-30",
+      "informed": [
+        "docs/v19/testing/react-debugging/SKILL.md"
+      ],
+      "copied": false
+    },
+    {
+      "from": "https://developer.chrome.com/blog/devtools-for-agents-3p-tools",
+      "commit": null,
+      "license": "CC-BY-4.0",
+      "read": "2026-10-30",
+      "informed": [
+        "docs/v19/testing/react-debugging/SKILL.md"
+      ],
+      "copied": false
+    },
+    {
+      "from": "https://github.com/vercel/next.js/releases/tag/v16.4.3",
+      "commit": "29bbeab09981148ade186e8599ecdede15abc281",
+      "license": "MIT",
+      "read": "2026-10-31",
+      "informed": [
+        "docs/v19/production/react-security/SKILL.md",
+        "docs/v19/core/react-server-components/SKILL.md"
+      ],
+      "copied": false
+    },
+    {
+      "from": "https://github.com/getsentry/sentry-javascript/releases/tag/11.10.0",
+      "commit": "9e336604b4ef77804a6669fea8e272e18ed8f0ce",
+      "license": "MIT",
+      "read": "2026-10-30",
+      "informed": [
+        "docs/v19/production/react-observability/SKILL.md"
+      ],
+      "copied": false
+    }
+  ]
+}

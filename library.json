@@ -1,0 +1,13 @@
+{
+  "name": "react",
+  "title": "React skills",
+  "description": "42 Claude skills for professional React 19.3 apps: components to server components, data, forms, auth, realtime, AI chat, testing, CI, deploy.",
+  "author": "MOZGII, Inc.",
+  "url": "https://mozgii.com",
+  "coauthor": "",
+  "coauthorUrl": "",
+  "version": "1.3.0",
+  "selftest": {
+    "minimum": 0.85
+  }
+}

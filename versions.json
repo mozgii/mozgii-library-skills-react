@@ -1,0 +1,965 @@
+{
+  "packages": [
+    {
+      "name": "ai",
+      "ecosystem": "npm",
+      "version": "7.0.159",
+      "checked": "2026-10-31"
+    },
+    {
+      "name": "@ai-sdk/anthropic",
+      "ecosystem": "npm",
+      "version": "4.0.94",
+      "checked": "2026-10-31"
+    },
+    {
+      "name": "@ai-sdk/react",
+      "ecosystem": "npm",
+      "version": "4.0.163",
+      "checked": "2026-10-31"
+    },
+    {
+      "name": "@aws-sdk/client-s3",
+      "ecosystem": "npm",
+      "version": "3.1161.0",
+      "checked": "2026-10-31"
+    },
+    {
+      "name": "@aws-sdk/s3-request-presigner",
+      "ecosystem": "npm",
+      "version": "3.1161.0",
+      "checked": "2026-10-31"
+    },
+    {
+      "name": "axe-core",
+      "ecosystem": "npm",
+      "version": "4.14.0",
+      "checked": "2026-10-30"
+    },
+    {
+      "name": "@axe-core/playwright",
+      "ecosystem": "npm",
+      "version": "4.14.0",
+      "checked": "2026-10-30"
+    },
+    {
+      "name": "babel-plugin-react-compiler",
+      "ecosystem": "npm",
+      "version": "1.0.0",
+      "checked": "2026-10-30"
+    },
+    {
+      "name": "@babel/core",
+      "ecosystem": "npm",
+      "version": "8.0.10",
+      "checked": "2026-10-31"
+    },
+    {
+      "name": "@base-ui/react",
+      "ecosystem": "npm",
+      "version": "1.9.0",
+      "checked": "2026-10-30"
+    },
+    {
+      "name": "chrome-devtools-mcp",
+      "ecosystem": "npm",
+      "version": "1.12.0",
+      "checked": "2026-10-30"
+    },
+    {
+      "name": "class-variance-authority",
+      "ecosystem": "npm",
+      "version": "0.7.1",
+      "checked": "2026-10-30"
+    },
+    {
+      "name": "clsx",
+      "ecosystem": "npm",
+      "version": "2.1.1",
+      "checked": "2026-10-30"
+    },
+    {
+      "name": "create-react-router",
+      "ecosystem": "npm",
+      "version": "8.5.1",
+      "checked": "2026-10-30"
+    },
+    {
+      "name": "@dnd-kit/abstract",
+      "ecosystem": "npm",
+      "version": "0.5.1",
+      "checked": "2026-10-30"
+    },
+    {
+      "name": "@dnd-kit/core",
+      "ecosystem": "npm",
+      "version": "6.3.1",
+      "checked": "2026-10-30"
+    },
+    {
+      "name": "@dnd-kit/helpers",
+      "ecosystem": "npm",
+      "version": "0.5.1",
+      "checked": "2026-10-30"
+    },
+    {
+      "name": "@dnd-kit/react",
+      "ecosystem": "npm",
+      "version": "0.5.1",
+      "checked": "2026-10-30"
+    },
+    {
+      "name": "@dnd-kit/sortable",
+      "ecosystem": "npm",
+      "version": "10.0.0",
+      "checked": "2026-10-30"
+    },
+    {
+      "name": "@dnd-kit/utilities",
+      "ecosystem": "npm",
+      "version": "3.2.2",
+      "checked": "2026-10-31"
+    },
+    {
+      "name": "dompurify",
+      "ecosystem": "npm",
+      "version": "3.4.17",
+      "checked": "2026-10-30"
+    },
+    {
+      "name": "echarts",
+      "ecosystem": "npm",
+      "version": "6.1.0",
+      "checked": "2026-10-30"
+    },
+    {
+      "name": "echarts-for-react",
+      "ecosystem": "npm",
+      "version": "3.0.6",
+      "checked": "2026-10-30"
+    },
+    {
+      "name": "eslint",
+      "ecosystem": "npm",
+      "version": "10.14.0",
+      "checked": "2026-10-31"
+    },
+    {
+      "name": "eslint-plugin-jsx-a11y",
+      "ecosystem": "npm",
+      "version": "6.10.2",
+      "checked": "2026-10-30"
+    },
+    {
+      "name": "eslint-plugin-react-hooks",
+      "ecosystem": "npm",
+      "version": "7.1.1",
+      "checked": "2026-10-30"
+    },
+    {
+      "name": "eslint-plugin-react-refresh",
+      "ecosystem": "npm",
+      "version": "0.5.7",
+      "checked": "2026-10-31"
+    },
+    {
+      "name": "@eslint/js",
+      "ecosystem": "npm",
+      "version": "10.0.1",
+      "checked": "2026-10-31"
+    },
+    {
+      "name": "@floating-ui/dom",
+      "ecosystem": "npm",
+      "version": "1.8.0",
+      "checked": "2026-10-31"
+    },
+    {
+      "name": "@floating-ui/react",
+      "ecosystem": "npm",
+      "version": "0.27.20",
+      "checked": "2026-10-30"
+    },
+    {
+      "name": "framer-motion",
+      "ecosystem": "npm",
+      "version": "14.9.0",
+      "checked": "2026-10-31"
+    },
+    {
+      "name": "globals",
+      "ecosystem": "npm",
+      "version": "17.13.0",
+      "checked": "2026-10-31"
+    },
+    {
+      "name": "@hocuspocus/provider",
+      "ecosystem": "npm",
+      "version": "4.8.0",
+      "checked": "2026-10-30"
+    },
+    {
+      "name": "@hookform/resolvers",
+      "ecosystem": "npm",
+      "version": "6.0.2",
+      "checked": "2026-10-30",
+      "held": "7.0.0 came out on 2026-10-31, the day of this release; the skills teach 6.x and move in the next version."
+    },
+    {
+      "name": "i18next",
+      "ecosystem": "npm",
+      "version": "26.5.12",
+      "checked": "2026-10-30"
+    },
+    {
+      "name": "i18next-browser-languagedetector",
+      "ecosystem": "npm",
+      "version": "8.2.4",
+      "checked": "2026-10-31"
+    },
+    {
+      "name": "i18next-resources-to-backend",
+      "ecosystem": "npm",
+      "version": "1.2.3",
+      "checked": "2026-10-31"
+    },
+    {
+      "name": "idb-keyval",
+      "ecosystem": "npm",
+      "version": "6.3.0",
+      "checked": "2026-10-31"
+    },
+    {
+      "name": "immer",
+      "ecosystem": "npm",
+      "version": "11.2.9",
+      "checked": "2026-10-31"
+    },
+    {
+      "name": "jotai",
+      "ecosystem": "npm",
+      "version": "3.0.1",
+      "checked": "2026-10-30"
+    },
+    {
+      "name": "jotai-family",
+      "ecosystem": "npm",
+      "version": "1.1.0",
+      "checked": "2026-10-31"
+    },
+    {
+      "name": "jsdom",
+      "ecosystem": "npm",
+      "version": "30.1.3",
+      "checked": "2026-10-31"
+    },
+    {
+      "name": "jspdf",
+      "ecosystem": "npm",
+      "version": "4.2.1",
+      "checked": "2026-10-31"
+    },
+    {
+      "name": "lexical",
+      "ecosystem": "npm",
+      "version": "0.53.0",
+      "checked": "2026-10-30"
+    },
+    {
+      "name": "@lexical/link",
+      "ecosystem": "npm",
+      "version": "0.53.0",
+      "checked": "2026-10-31"
+    },
+    {
+      "name": "@lexical/list",
+      "ecosystem": "npm",
+      "version": "0.53.0",
+      "checked": "2026-10-31"
+    },
+    {
+      "name": "@lexical/react",
+      "ecosystem": "npm",
+      "version": "0.53.0",
+      "checked": "2026-10-30"
+    },
+    {
+      "name": "@lexical/rich-text",
+      "ecosystem": "npm",
+      "version": "0.53.0",
+      "checked": "2026-10-31"
+    },
+    {
+      "name": "@lexical/yjs",
+      "ecosystem": "npm",
+      "version": "0.53.0",
+      "checked": "2026-10-30"
+    },
+    {
+      "name": "@lhci/cli",
+      "ecosystem": "npm",
+      "version": "0.15.1",
+      "checked": "2026-10-30"
+    },
+    {
+      "name": "lodash",
+      "ecosystem": "npm",
+      "version": "4.18.1",
+      "checked": "2026-10-31"
+    },
+    {
+      "name": "motion",
+      "ecosystem": "npm",
+      "version": "14.9.0",
+      "checked": "2026-10-30"
+    },
+    {
+      "name": "msw",
+      "ecosystem": "npm",
+      "version": "3.0.3",
+      "checked": "2026-10-30"
+    },
+    {
+      "name": "next",
+      "ecosystem": "npm",
+      "version": "16.4.3",
+      "checked": "2026-10-30"
+    },
+    {
+      "name": "oidc-client-ts",
+      "ecosystem": "npm",
+      "version": "3.5.0",
+      "checked": "2026-10-30"
+    },
+    {
+      "name": "openid-client",
+      "ecosystem": "npm",
+      "version": "6.8.8",
+      "checked": "2026-10-30"
+    },
+    {
+      "name": "oxlint",
+      "ecosystem": "npm",
+      "version": "1.90.0",
+      "checked": "2026-10-30"
+    },
+    {
+      "name": "partysocket",
+      "ecosystem": "npm",
+      "version": "1.3.0",
+      "checked": "2026-10-30"
+    },
+    {
+      "name": "@playwright/test",
+      "ecosystem": "npm",
+      "version": "1.64.1",
+      "checked": "2026-10-30"
+    },
+    {
+      "name": "radix-ui",
+      "ecosystem": "npm",
+      "version": "1.8.1",
+      "checked": "2026-10-30"
+    },
+    {
+      "name": "react",
+      "ecosystem": "npm",
+      "version": "19.3.1",
+      "checked": "2026-10-30"
+    },
+    {
+      "name": "react-devtools-cdt-mcp",
+      "ecosystem": "npm",
+      "version": "0.1.0",
+      "checked": "2026-10-30"
+    },
+    {
+      "name": "react-dom",
+      "ecosystem": "npm",
+      "version": "19.3.1",
+      "checked": "2026-10-30"
+    },
+    {
+      "name": "react-dropzone",
+      "ecosystem": "npm",
+      "version": "20.1.4",
+      "checked": "2026-10-30"
+    },
+    {
+      "name": "react-error-boundary",
+      "ecosystem": "npm",
+      "version": "6.1.6",
+      "checked": "2026-10-30"
+    },
+    {
+      "name": "react-hook-form",
+      "ecosystem": "npm",
+      "version": "7.91.0",
+      "checked": "2026-10-30"
+    },
+    {
+      "name": "react-i18next",
+      "ecosystem": "npm",
+      "version": "17.1.9",
+      "checked": "2026-10-30"
+    },
+    {
+      "name": "react-markdown",
+      "ecosystem": "npm",
+      "version": "10.1.0",
+      "checked": "2026-10-30"
+    },
+    {
+      "name": "react-oidc-context",
+      "ecosystem": "npm",
+      "version": "3.3.1",
+      "checked": "2026-10-30"
+    },
+    {
+      "name": "react-redux",
+      "ecosystem": "npm",
+      "version": "9.3.1",
+      "checked": "2026-10-31"
+    },
+    {
+      "name": "react-router",
+      "ecosystem": "npm",
+      "version": "8.5.1",
+      "checked": "2026-10-30"
+    },
+    {
+      "name": "@react-router/dev",
+      "ecosystem": "npm",
+      "version": "8.5.1",
+      "checked": "2026-10-30"
+    },
+    {
+      "name": "react-server-dom-parcel",
+      "ecosystem": "npm",
+      "version": "19.3.1",
+      "checked": "2026-10-30"
+    },
+    {
+      "name": "react-server-dom-turbopack",
+      "ecosystem": "npm",
+      "version": "19.3.1",
+      "checked": "2026-10-30"
+    },
+    {
+      "name": "react-server-dom-webpack",
+      "ecosystem": "npm",
+      "version": "19.3.1",
+      "checked": "2026-10-30"
+    },
+    {
+      "name": "@react-three/drei",
+      "ecosystem": "npm",
+      "version": "10.7.9",
+      "checked": "2026-10-30"
+    },
+    {
+      "name": "@react-three/fiber",
+      "ecosystem": "npm",
+      "version": "9.8.2",
+      "checked": "2026-10-30"
+    },
+    {
+      "name": "recharts",
+      "ecosystem": "npm",
+      "version": "3.10.1",
+      "checked": "2026-10-30"
+    },
+    {
+      "name": "@reduxjs/toolkit",
+      "ecosystem": "npm",
+      "version": "2.13.0",
+      "checked": "2026-10-30"
+    },
+    {
+      "name": "@rolldown/plugin-babel",
+      "ecosystem": "npm",
+      "version": "0.3.0",
+      "checked": "2026-10-31"
+    },
+    {
+      "name": "rollup-plugin-visualizer",
+      "ecosystem": "npm",
+      "version": "7.1.1",
+      "checked": "2026-10-30"
+    },
+    {
+      "name": "@sentry/react",
+      "ecosystem": "npm",
+      "version": "11.10.0",
+      "checked": "2026-10-30"
+    },
+    {
+      "name": "@sentry/vite-plugin",
+      "ecosystem": "npm",
+      "version": "11.10.0",
+      "checked": "2026-10-30"
+    },
+    {
+      "name": "server-only",
+      "ecosystem": "npm",
+      "version": "0.0.1",
+      "checked": "2026-10-31"
+    },
+    {
+      "name": "shadcn",
+      "ecosystem": "npm",
+      "version": "4.23.0",
+      "checked": "2026-10-30"
+    },
+    {
+      "name": "shiki",
+      "ecosystem": "npm",
+      "version": "4.5.0",
+      "checked": "2026-10-30"
+    },
+    {
+      "name": "size-limit",
+      "ecosystem": "npm",
+      "version": "14.3.0",
+      "checked": "2026-10-30"
+    },
+    {
+      "name": "sonner",
+      "ecosystem": "npm",
+      "version": "2.0.8",
+      "checked": "2026-10-30"
+    },
+    {
+      "name": "storybook",
+      "ecosystem": "npm",
+      "version": "10.6.5",
+      "checked": "2026-10-30"
+    },
+    {
+      "name": "@storybook/addon-a11y",
+      "ecosystem": "npm",
+      "version": "10.6.5",
+      "checked": "2026-10-31"
+    },
+    {
+      "name": "@storybook/addon-vitest",
+      "ecosystem": "npm",
+      "version": "10.6.5",
+      "checked": "2026-10-31"
+    },
+    {
+      "name": "@storybook/react-vite",
+      "ecosystem": "npm",
+      "version": "10.6.5",
+      "checked": "2026-10-30"
+    },
+    {
+      "name": "streamdown",
+      "ecosystem": "npm",
+      "version": "2.7.1",
+      "checked": "2026-10-30"
+    },
+    {
+      "name": "tailwind-merge",
+      "ecosystem": "npm",
+      "version": "3.7.0",
+      "checked": "2026-10-30"
+    },
+    {
+      "name": "tailwindcss",
+      "ecosystem": "npm",
+      "version": "4.3.3",
+      "checked": "2026-10-30"
+    },
+    {
+      "name": "@tailwindcss/vite",
+      "ecosystem": "npm",
+      "version": "4.3.3",
+      "checked": "2026-10-31"
+    },
+    {
+      "name": "@tanstack/eslint-plugin-query",
+      "ecosystem": "npm",
+      "version": "5.105.0",
+      "checked": "2026-10-31"
+    },
+    {
+      "name": "@tanstack/query-async-storage-persister",
+      "ecosystem": "npm",
+      "version": "5.105.0",
+      "checked": "2026-10-31"
+    },
+    {
+      "name": "@tanstack/react-query",
+      "ecosystem": "npm",
+      "version": "5.105.0",
+      "checked": "2026-10-30"
+    },
+    {
+      "name": "@tanstack/react-query-devtools",
+      "ecosystem": "npm",
+      "version": "5.105.0",
+      "checked": "2026-10-31"
+    },
+    {
+      "name": "@tanstack/react-query-persist-client",
+      "ecosystem": "npm",
+      "version": "5.105.0",
+      "checked": "2026-10-31"
+    },
+    {
+      "name": "@tanstack/react-router",
+      "ecosystem": "npm",
+      "version": "1.170.46",
+      "checked": "2026-10-30"
+    },
+    {
+      "name": "@tanstack/react-router-devtools",
+      "ecosystem": "npm",
+      "version": "1.167.2",
+      "checked": "2026-10-31"
+    },
+    {
+      "name": "@tanstack/react-table",
+      "ecosystem": "npm",
+      "version": "9.3.1",
+      "checked": "2026-10-30"
+    },
+    {
+      "name": "@tanstack/react-virtual",
+      "ecosystem": "npm",
+      "version": "3.14.24",
+      "checked": "2026-10-30"
+    },
+    {
+      "name": "@tanstack/router-plugin",
+      "ecosystem": "npm",
+      "version": "1.168.48",
+      "checked": "2026-10-30"
+    },
+    {
+      "name": "@tanstack/virtual-core",
+      "ecosystem": "npm",
+      "version": "3.19.9",
+      "checked": "2026-10-30"
+    },
+    {
+      "name": "@testing-library/dom",
+      "ecosystem": "npm",
+      "version": "10.4.2",
+      "checked": "2026-10-31"
+    },
+    {
+      "name": "@testing-library/jest-dom",
+      "ecosystem": "npm",
+      "version": "7.0.1",
+      "checked": "2026-10-30"
+    },
+    {
+      "name": "@testing-library/react",
+      "ecosystem": "npm",
+      "version": "16.3.3",
+      "checked": "2026-10-30"
+    },
+    {
+      "name": "@testing-library/user-event",
+      "ecosystem": "npm",
+      "version": "14.6.8",
+      "checked": "2026-10-30"
+    },
+    {
+      "name": "three",
+      "ecosystem": "npm",
+      "version": "0.187.0",
+      "checked": "2026-10-30"
+    },
+    {
+      "name": "@tiptap/core",
+      "ecosystem": "npm",
+      "version": "3.32.2",
+      "checked": "2026-10-30"
+    },
+    {
+      "name": "@tiptap/extension-collaboration",
+      "ecosystem": "npm",
+      "version": "3.32.2",
+      "checked": "2026-10-31"
+    },
+    {
+      "name": "@tiptap/extension-collaboration-caret",
+      "ecosystem": "npm",
+      "version": "3.32.2",
+      "checked": "2026-10-31"
+    },
+    {
+      "name": "@tiptap/extension-mention",
+      "ecosystem": "npm",
+      "version": "3.32.2",
+      "checked": "2026-10-31"
+    },
+    {
+      "name": "@tiptap/extensions",
+      "ecosystem": "npm",
+      "version": "3.32.2",
+      "checked": "2026-10-31"
+    },
+    {
+      "name": "@tiptap/react",
+      "ecosystem": "npm",
+      "version": "3.32.2",
+      "checked": "2026-10-30"
+    },
+    {
+      "name": "@tiptap/starter-kit",
+      "ecosystem": "npm",
+      "version": "3.32.2",
+      "checked": "2026-10-31"
+    },
+    {
+      "name": "@tiptap/suggestion",
+      "ecosystem": "npm",
+      "version": "3.32.2",
+      "checked": "2026-10-31"
+    },
+    {
+      "name": "tus-js-client",
+      "ecosystem": "npm",
+      "version": "4.3.1",
+      "checked": "2026-10-30"
+    },
+    {
+      "name": "@types/react",
+      "ecosystem": "npm",
+      "version": "19.3.0",
+      "checked": "2026-10-30"
+    },
+    {
+      "name": "@types/react-dom",
+      "ecosystem": "npm",
+      "version": "19.3.0",
+      "checked": "2026-10-30"
+    },
+    {
+      "name": "typescript",
+      "ecosystem": "npm",
+      "version": "7.0.2",
+      "checked": "2026-10-30"
+    },
+    {
+      "name": "typescript-eslint",
+      "ecosystem": "npm",
+      "version": "8.72.1",
+      "checked": "2026-10-30"
+    },
+    {
+      "name": "@uppy/aws-s3",
+      "ecosystem": "npm",
+      "version": "6.3.0",
+      "checked": "2026-10-30"
+    },
+    {
+      "name": "@uppy/core",
+      "ecosystem": "npm",
+      "version": "6.3.0",
+      "checked": "2026-10-30"
+    },
+    {
+      "name": "@uppy/react",
+      "ecosystem": "npm",
+      "version": "6.1.0",
+      "checked": "2026-10-30"
+    },
+    {
+      "name": "@uppy/tus",
+      "ecosystem": "npm",
+      "version": "6.0.0",
+      "checked": "2026-10-30"
+    },
+    {
+      "name": "@visx/axis",
+      "ecosystem": "npm",
+      "version": "4.0.0",
+      "checked": "2026-10-31"
+    },
+    {
+      "name": "@visx/group",
+      "ecosystem": "npm",
+      "version": "4.0.0",
+      "checked": "2026-10-31"
+    },
+    {
+      "name": "@visx/responsive",
+      "ecosystem": "npm",
+      "version": "4.0.0",
+      "checked": "2026-10-31"
+    },
+    {
+      "name": "@visx/scale",
+      "ecosystem": "npm",
+      "version": "4.0.0",
+      "checked": "2026-10-31"
+    },
+    {
+      "name": "@visx/shape",
+      "ecosystem": "npm",
+      "version": "4.0.0",
+      "checked": "2026-10-31"
+    },
+    {
+      "name": "@visx/visx",
+      "ecosystem": "npm",
+      "version": "4.0.0",
+      "checked": "2026-10-30"
+    },
+    {
+      "name": "vite",
+      "ecosystem": "npm",
+      "version": "8.3.5",
+      "checked": "2026-10-30"
+    },
+    {
+      "name": "vite-plugin-pwa",
+      "ecosystem": "npm",
+      "version": "2.0.0",
+      "checked": "2026-10-30"
+    },
+    {
+      "name": "@vite-pwa/assets-generator",
+      "ecosystem": "npm",
+      "version": "2.0.0",
+      "checked": "2026-10-30"
+    },
+    {
+      "name": "@vitejs/plugin-react",
+      "ecosystem": "npm",
+      "version": "6.1.2",
+      "checked": "2026-10-30"
+    },
+    {
+      "name": "@vitejs/plugin-rsc",
+      "ecosystem": "npm",
+      "version": "0.5.38",
+      "checked": "2026-10-31"
+    },
+    {
+      "name": "vitest",
+      "ecosystem": "npm",
+      "version": "5.0.5",
+      "checked": "2026-10-30"
+    },
+    {
+      "name": "vitest-browser-react",
+      "ecosystem": "npm",
+      "version": "2.3.0",
+      "checked": "2026-10-30"
+    },
+    {
+      "name": "@vitest/browser-playwright",
+      "ecosystem": "npm",
+      "version": "5.0.5",
+      "checked": "2026-10-31"
+    },
+    {
+      "name": "@vitest/coverage-v8",
+      "ecosystem": "npm",
+      "version": "5.0.5",
+      "checked": "2026-10-30"
+    },
+    {
+      "name": "web-vitals",
+      "ecosystem": "npm",
+      "version": "6.2.3",
+      "checked": "2026-10-30"
+    },
+    {
+      "name": "workbox-background-sync",
+      "ecosystem": "npm",
+      "version": "7.4.1",
+      "checked": "2026-10-31"
+    },
+    {
+      "name": "workbox-expiration",
+      "ecosystem": "npm",
+      "version": "7.4.1",
+      "checked": "2026-10-31"
+    },
+    {
+      "name": "workbox-precaching",
+      "ecosystem": "npm",
+      "version": "7.4.1",
+      "checked": "2026-10-31"
+    },
+    {
+      "name": "workbox-routing",
+      "ecosystem": "npm",
+      "version": "7.4.1",
+      "checked": "2026-10-31"
+    },
+    {
+      "name": "workbox-strategies",
+      "ecosystem": "npm",
+      "version": "7.4.1",
+      "checked": "2026-10-31"
+    },
+    {
+      "name": "workbox-window",
+      "ecosystem": "npm",
+      "version": "7.4.1",
+      "checked": "2026-10-30"
+    },
+    {
+      "name": "y-websocket",
+      "ecosystem": "npm",
+      "version": "3.1.0",
+      "checked": "2026-10-30"
+    },
+    {
+      "name": "yjs",
+      "ecosystem": "npm",
+      "version": "13.6.33",
+      "checked": "2026-10-30"
+    },
+    {
+      "name": "zod",
+      "ecosystem": "npm",
+      "version": "4.6.7",
+      "checked": "2026-10-30"
+    },
+    {
+      "name": "zustand",
+      "ecosystem": "npm",
+      "version": "5.0.16",
+      "checked": "2026-10-30"
+    },
+    {
+      "name": "@gltf-transform/cli",
+      "ecosystem": "npm",
+      "version": "4.5.1",
+      "checked": "2026-10-31"
+    },
+    {
+      "name": "gltfjsx",
+      "ecosystem": "npm",
+      "version": "6.5.3",
+      "checked": "2026-10-31"
+    },
+    {
+      "name": "@size-limit/esbuild",
+      "ecosystem": "npm",
+      "version": "14.3.0",
+      "checked": "2026-10-31"
+    },
+    {
+      "name": "@size-limit/esbuild-why",
+      "ecosystem": "npm",
+      "version": "14.3.0",
+      "checked": "2026-10-31"
+    },
+    {
+      "name": "yaml",
+      "ecosystem": "npm",
+      "version": "2.9.1",
+      "checked": "2026-10-31"
+    }
+  ]
+}

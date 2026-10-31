@@ -1,0 +1,797 @@
+[
+ {
+  "question": "How do I create a new React app with Vite and the compiler already on?",
+  "answer": "--template react-compiler-ts",
+  "file": "v19/core/react-project-setup/SKILL.md"
+ },
+ {
+  "question": "npm install fails with ERESOLVE when I add typescript-eslint to a TypeScript 7 project",
+  "answer": "typescript >=4.8.4 <6.1.0",
+  "file": "v19/core/react-project-setup/SKILL.md"
+ },
+ {
+  "question": "Why is import.meta.env.API_URL undefined in my Vite app?",
+  "answer": "only variables that start with `VITE_`",
+  "file": "v19/core/react-project-setup/SKILL.md"
+ },
+ {
+  "question": "Should I use barrel index.ts files for my shared UI components?",
+  "answer": "Barrel files and their cost",
+  "file": "v19/core/react-project-setup/references/project-structure.md"
+ },
+ {
+  "question": "Why does a stray 0 show up on the page when my list is empty?",
+  "answer": "renders `0` when `count` is 0",
+  "file": "v19/core/react-components/SKILL.md"
+ },
+ {
+  "question": "Can I still use forwardRef in React 19 or is there something new?",
+  "answer": "receives `ref` as a regular prop",
+  "file": "v19/core/react-components/SKILL.md"
+ },
+ {
+  "question": "My input loses focus every time I type a character",
+  "answer": "Never define a component inside another component",
+  "file": "v19/core/react-components/SKILL.md"
+ },
+ {
+  "question": "What did React 19.3 add?",
+  "answer": "React 19.3 (September 2026) made View Transitions and Fragment refs stable",
+  "file": "v19/core/react-components/references/react-19-apis.md"
+ },
+ {
+  "question": "How do I read the latest prop inside an effect without adding it to the dependency array?",
+  "answer": "useEffectEvent for non-reactive logic",
+  "file": "v19/core/react-hooks-and-effects/SKILL.md"
+ },
+ {
+  "question": "Do I need an effect to compute filtered todos from props?",
+  "answer": "You might not need an effect",
+  "file": "v19/core/react-hooks-and-effects/SKILL.md"
+ },
+ {
+  "question": "My useSyncExternalStore hook loops forever",
+  "answer": "Returning a new object each call causes an infinite loop",
+  "file": "v19/core/react-hooks-and-effects/SKILL.md"
+ },
+ {
+  "question": "How do I reset a form's state when the user id prop changes?",
+  "answer": "Reset all state with a key",
+  "file": "v19/core/react-hooks-and-effects/references/effects-cookbook.md"
+ },
+ {
+  "question": "My component has eight boolean props, how should I restructure it?",
+  "answer": "Explicit variants instead of boolean flags",
+  "file": "v19/core/react-composition-patterns/SKILL.md"
+ },
+ {
+  "question": "How do I support both value and defaultValue in my own component?",
+  "answer": "Controlled and uncontrolled components",
+  "file": "v19/core/react-composition-patterns/SKILL.md"
+ },
+ {
+  "question": "Example of an accessible tabs component with arrow key navigation",
+  "answer": "reads the tab order from the DOM at the moment of the key press",
+  "file": "v19/core/react-composition-patterns/references/compound-components.md"
+ },
+ {
+  "question": "Should server data go into my Zustand store?",
+  "answer": "Copying server data into a client store creates two sources of truth",
+  "file": "v19/core/react-state-management/SKILL.md"
+ },
+ {
+  "question": "Maximum update depth exceeded after upgrading Zustand",
+  "answer": "useShallow",
+  "file": "v19/core/react-state-management/SKILL.md"
+ },
+ {
+  "question": "Where did atomFamily go in Jotai 3?",
+  "answer": "jotai-family",
+  "file": "v19/core/react-state-management/SKILL.md"
+ },
+ {
+  "question": "How do I give each widget instance its own Zustand store?",
+  "answer": "Zustand store per component tree with context",
+  "file": "v19/core/react-state-management/references/stores.md"
+ },
+ {
+  "question": "ensureQueryData shows a deprecation warning, what replaces it?",
+  "answer": "staleTime: 'static'",
+  "file": "v19/data-and-routing/react-data-fetching/SKILL.md"
+ },
+ {
+  "question": "Two different filters show the same cached data in React Query",
+  "answer": "every input of `queryFn` is in the key",
+  "file": "v19/data-and-routing/react-data-fetching/SKILL.md"
+ },
+ {
+  "question": "My queries are stuck paused in an Electron app when Wi-Fi is off",
+  "answer": "networkMode: 'always'",
+  "file": "v19/data-and-routing/react-data-fetching/SKILL.md"
+ },
+ {
+  "question": "How do I roll back an optimistic update if the request fails?",
+  "answer": "Optimistic updates",
+  "file": "v19/data-and-routing/react-data-fetching/SKILL.md"
+ },
+ {
+  "question": "How can several open tabs stay in sync without polling?",
+  "answer": "Keep clients in sync with push invalidation",
+  "file": "v19/data-and-routing/react-data-fetching/SKILL.md"
+ },
+ {
+  "question": "Progress events arrive many times a second and typing lags",
+  "answer": "High-frequency updates outside the cache",
+  "file": "v19/data-and-routing/react-data-fetching/references/query-patterns.md"
+ },
+ {
+  "question": "Cannot find module react-router-dom after upgrading",
+  "answer": "v8 removed the package",
+  "file": "v19/data-and-routing/react-router-data-mode/SKILL.md"
+ },
+ {
+  "question": "Every tab click re-runs my layout loader",
+  "answer": "Control revalidation with shouldRevalidate",
+  "file": "v19/data-and-routing/react-router-data-mode/SKILL.md"
+ },
+ {
+  "question": "How do I protect routes behind login with React Router middleware?",
+  "answer": "Middleware and router context for guards",
+  "file": "v19/data-and-routing/react-router-data-mode/SKILL.md"
+ },
+ {
+  "question": "Which router should I use in an Electron window loaded from a custom protocol?",
+  "answer": "createHashRouter",
+  "file": "v19/data-and-routing/react-router-data-mode/SKILL.md"
+ },
+ {
+  "question": "How do I test a route loader with a memory router?",
+  "answer": "Memory-router tests with MSW",
+  "file": "v19/data-and-routing/react-router-data-mode/references/patterns.md"
+ },
+ {
+  "question": "How do I validate search params in TanStack Router with Zod 4?",
+  "answer": "pass the schema directly and use `.catch()`",
+  "file": "v19/data-and-routing/tanstack-router/SKILL.md"
+ },
+ {
+  "question": "My TanStack Router links accept any string without errors",
+  "answer": "Missing `Register` declaration",
+  "file": "v19/data-and-routing/tanstack-router/SKILL.md"
+ },
+ {
+  "question": "Should I pick TanStack Router or React Router for a new app?",
+  "answer": "When to pick TanStack Router over React Router",
+  "file": "v19/data-and-routing/tanstack-router/SKILL.md"
+ },
+ {
+  "question": "Fields are cleared after a failed submit with a React 19 form action",
+  "answer": "resets uncontrolled forms after the Action resolves",
+  "file": "v19/data-and-routing/react-forms/SKILL.md"
+ },
+ {
+  "question": "useFormStatus always says pending is false",
+  "answer": "called in the component that renders `<form>`",
+  "file": "v19/data-and-routing/react-forms/SKILL.md"
+ },
+ {
+  "question": "How do I connect a Zod schema to react-hook-form?",
+  "answer": "zodResolver(Profile)",
+  "file": "v19/data-and-routing/react-forms/SKILL.md"
+ },
+ {
+  "question": "How do I add and remove invoice line rows in react-hook-form?",
+  "answer": "Dynamic rows with useFieldArray",
+  "file": "v19/data-and-routing/react-forms/references/react-hook-form.md"
+ },
+ {
+  "question": "Why doesn't my error boundary catch an error thrown in onClick?",
+  "answer": "Event handlers (`onClick`)",
+  "file": "v19/core/react-error-handling/SKILL.md"
+ },
+ {
+  "question": "Try again in the error fallback keeps showing the same React Query error",
+  "answer": "QueryErrorResetBoundary",
+  "file": "v19/core/react-error-handling/SKILL.md"
+ },
+ {
+  "question": "Where do I send all React render errors to Sentry or another monitoring service?",
+  "answer": "Root error reporting with createRoot options",
+  "file": "v19/core/react-error-handling/SKILL.md"
+ },
+ {
+  "question": "How do I turn on the React Compiler in Vite 8?",
+  "answer": "babel({ presets: [reactCompilerPreset()] })",
+  "file": "v19/production/react-performance/SKILL.md"
+ },
+ {
+  "question": "Typing in a search box lags while a big list filters",
+  "answer": "Transitions and useDeferredValue for responsive input",
+  "file": "v19/production/react-performance/SKILL.md"
+ },
+ {
+  "question": "How do I render a list with 50,000 rows smoothly?",
+  "answer": "Virtualize long lists",
+  "file": "v19/production/react-performance/SKILL.md"
+ },
+ {
+  "question": "How do I adopt the compiler gradually on a big existing codebase?",
+  "answer": "Incremental adoption with annotation mode",
+  "file": "v19/production/react-performance/references/react-compiler.md"
+ },
+ {
+  "question": "Load more rows from the server as the user scrolls a virtual list",
+  "answer": "Paging a virtualized list from the server",
+  "file": "v19/production/react-performance/references/lists-and-streams.md"
+ },
+ {
+  "question": "How do I set up Vitest with jsdom and Testing Library?",
+  "answer": "Install and configure Vitest with jsdom",
+  "file": "v19/testing/react-testing/SKILL.md"
+ },
+ {
+  "question": "onUnhandledRequest gives a type error after upgrading MSW",
+  "answer": "onUnhandledFrame",
+  "file": "v19/testing/react-testing/SKILL.md"
+ },
+ {
+  "question": "Which Testing Library query should I prefer?",
+  "answer": "getByRole('button', { name: 'Save' })",
+  "file": "v19/testing/react-testing/SKILL.md"
+ },
+ {
+  "question": "How do I test a debounced search input with fake timers?",
+  "answer": "Timers and debounced input",
+  "file": "v19/testing/react-testing/references/test-recipes.md"
+ },
+ {
+  "question": "Is a div with onClick okay as a button?",
+  "answer": "A `div` with `onClick` is not focusable",
+  "file": "v19/ui/react-accessibility/SKILL.md"
+ },
+ {
+  "question": "My toast message is never read by the screen reader",
+  "answer": "Live regions for async updates",
+  "file": "v19/ui/react-accessibility/SKILL.md"
+ },
+ {
+  "question": "How should keyboard navigation work in a menu button?",
+  "answer": "Menu button and menu",
+  "file": "v19/ui/react-accessibility/references/widget-patterns.md"
+ },
+ {
+  "question": "How do I type a button wrapper that accepts all native button props?",
+  "answer": "ComponentProps<'button'>",
+  "file": "v19/core/react-typescript/SKILL.md"
+ },
+ {
+  "question": "Property value does not exist on type EventTarget",
+  "answer": "`e.target` instead of `e.currentTarget`",
+  "file": "v19/core/react-typescript/SKILL.md"
+ },
+ {
+  "question": "The page flashes light before switching to dark mode",
+  "answer": "the inline script in `index.html` before the bundle",
+  "file": "v19/ui/react-app-layouts/SKILL.md"
+ },
+ {
+  "question": "How do I build a Cmd+K command palette?",
+  "answer": "Command palette and keyboard shortcuts",
+  "file": "v19/ui/react-app-layouts/SKILL.md"
+ },
+ {
+  "question": "Build a draggable resizable two-pane layout",
+  "answer": "Resizable split view component",
+  "file": "v19/ui/react-app-layouts/references/layout-patterns.md"
+ },
+ {
+  "question": "My ViewTransition animation does not run",
+  "answer": "the update was urgent",
+  "file": "v19/ui/react-animation/SKILL.md"
+ },
+ {
+  "question": "React Router viewTransition prop is deprecated, what do I use now?",
+  "answer": "React Router 8.5 deprecated its own `viewTransition` props",
+  "file": "v19/ui/react-animation/SKILL.md"
+ },
+ {
+  "question": "How do I animate a list item removal and reorder?",
+  "answer": "Animated list with add, remove and reorder",
+  "file": "v19/ui/react-animation/references/motion-recipes.md"
+ },
+ {
+  "question": "npm run build drops my Tailwind background colour that I build from a variable like bg-${color}-500",
+  "answer": "Tailwind finds classes by scanning source files as text",
+  "file": "v19/ui/react-styling/SKILL.md"
+ },
+ {
+  "question": "How do I add shadcn/ui to a Vite React app I already have?",
+  "answer": "npx shadcn@latest init -b radix",
+  "file": "v19/ui/react-styling/SKILL.md"
+ },
+ {
+  "question": "tanstack table v9 says getToggleAllPageRowsSelectedHandler is not a function",
+  "answer": "the feature is not registered in v9",
+  "file": "v19/ui/react-data-tables/SKILL.md"
+ },
+ {
+  "question": "server side pagination and sorting with tanstack table and react query",
+  "answer": "only stop the table from slicing and sorting",
+  "file": "v19/ui/react-data-tables/SKILL.md"
+ },
+ {
+  "question": "react-i18next shows \"1 invoices\", how do plurals work?",
+  "answer": "summary_other",
+  "file": "v19/ui/react-i18n/SKILL.md"
+ },
+ {
+  "question": "My layout stays left aligned when I switch the React app to Arabic",
+  "answer": "logical CSS properties flip by themselves",
+  "file": "v19/ui/react-i18n/SKILL.md"
+ },
+ {
+  "question": "Is it safe to put HTML from our CMS into dangerouslySetInnerHTML?",
+  "answer": "DOMPurify removes them and keeps formatting",
+  "file": "v19/production/react-security/SKILL.md"
+ },
+ {
+  "question": "Should I store the JWT in localStorage in my React SPA?",
+  "answer": "httpOnly session cookie",
+  "file": "v19/production/react-security/SKILL.md"
+ },
+ {
+  "question": "Error: Too many re-renders. React limits the number of renders to prevent an infinite loop",
+  "answer": "a component sets state while it renders",
+  "file": "v19/testing/react-debugging/SKILL.md"
+ },
+ {
+  "question": "Invalid hook call but all my hooks are at the top of the component",
+  "answer": "npm ls react react-dom",
+  "file": "v19/testing/react-debugging/SKILL.md"
+ },
+ {
+  "question": "What are the steps to upgrade our app from React 18 to React 19?",
+  "answer": "npx codemod@latest react/19/migration-recipe",
+  "file": "v19/core/react-migrations/SKILL.md"
+ },
+ {
+  "question": "We still use create-react-app, how do we switch to Vite?",
+  "answer": "REACT_APP_X",
+  "file": "v19/core/react-migrations/SKILL.md"
+ },
+ {
+  "question": "tsc fails with TS5102 Option 'baseUrl' has been removed after setting up path aliases",
+  "answer": "TypeScript 7 removed `baseUrl`",
+  "file": "v19/core/react-project-setup/SKILL.md"
+ },
+ {
+  "question": "I get an error that functions cannot be passed directly to Client Components",
+  "answer": "Functions cannot be passed directly to Client Components",
+  "file": "v19/core/react-server-components/SKILL.md"
+ },
+ {
+  "question": "Does a server action need its own auth check if only my form calls it?",
+  "answer": "Server Functions are public endpoints",
+  "file": "v19/core/react-server-components/SKILL.md"
+ },
+ {
+  "question": "Which values can a server component pass as props to a client component?",
+  "answer": "Serializable props for Client Components",
+  "file": "v19/core/react-server-components/references/rsc-serialization-and-caching.md"
+ },
+ {
+  "question": "My component that calls use() suspends forever and keeps refetching",
+  "answer": "The component suspends forever or refetches in a loop",
+  "file": "v19/core/react-suspense-and-concurrency/SKILL.md"
+ },
+ {
+  "question": "How do I keep the old tab visible instead of a spinner while the new tab loads?",
+  "answer": "Keep the old screen with startTransition",
+  "file": "v19/core/react-suspense-and-concurrency/SKILL.md"
+ },
+ {
+  "question": "After upgrading React two transitions no longer commit at the same time",
+  "answer": "Independent Transitions in React 19.3",
+  "file": "v19/core/react-suspense-and-concurrency/references/concurrency-patterns.md"
+ },
+ {
+  "question": "How should we structure design tokens so a rebrand is cheap?",
+  "answer": "Design tokens in three layers",
+  "file": "v19/ui/react-design-system/SKILL.md"
+ },
+ {
+  "question": "Apps that install our component library crash with Invalid hook call",
+  "answer": "React as a peer dependency and external in the build",
+  "file": "v19/ui/react-design-system/SKILL.md"
+ },
+ {
+  "question": "Should we ship our components as an npm package or as a shadcn registry?",
+  "answer": "A shadcn registry instead of a package",
+  "file": "v19/ui/react-design-system/references/publishing-a-component-library.md"
+ },
+ {
+  "question": "Should archiving an item ask for confirmation or offer undo?",
+  "answer": "do it, then a toast with Undo",
+  "file": "v19/ui/react-overlays-and-feedback/SKILL.md"
+ },
+ {
+  "question": "My toast messages are never read out by the screen reader",
+  "answer": "Toasts that are announced and never steal focus",
+  "file": "v19/ui/react-overlays-and-feedback/SKILL.md"
+ },
+ {
+  "question": "Pressing Escape closes both the popover and the dialog behind it",
+  "answer": "Nested overlays and the Escape stack",
+  "file": "v19/ui/react-overlays-and-feedback/references/overlay-patterns.md"
+ },
+ {
+  "question": "How do I make a virtualized chat list stick to the newest message while replies stream in?",
+  "answer": "Chat-style lists anchored to the end",
+  "file": "v19/ui/react-virtual-lists/SKILL.md"
+ },
+ {
+  "question": "Rows of different heights overlap in my TanStack Virtual list",
+  "answer": "Dynamic row heights with measureElement",
+  "file": "v19/ui/react-virtual-lists/SKILL.md"
+ },
+ {
+  "question": "How do I bring back the scroll position of a virtual list after navigating back?",
+  "answer": "Scroll restoration after navigation",
+  "file": "v19/ui/react-virtual-lists/references/virtual-list-recipes.md"
+ },
+ {
+  "question": "Should a new project install @dnd-kit/core or @dnd-kit/react?",
+  "answer": "Decision table: which dnd-kit package line to pick",
+  "file": "v19/ui/react-drag-and-drop/SKILL.md"
+ },
+ {
+  "question": "How do I let cards move between columns on a kanban board?",
+  "answer": "Kanban boards with columns and cross-column moves",
+  "file": "v19/ui/react-drag-and-drop/SKILL.md"
+ },
+ {
+  "question": "What replaces SortableContext and CSS.Transform in the new dnd-kit?",
+  "answer": "Legacy to new API map",
+  "file": "v19/ui/react-drag-and-drop/references/dnd-kit-legacy-and-migration.md"
+ },
+ {
+  "question": "How can the browser upload large files directly to S3 without going through my API?",
+  "answer": "Presigned direct-to-storage uploads",
+  "file": "v19/data-and-routing/react-file-uploads/SKILL.md"
+ },
+ {
+  "question": "fetch gives me no upload progress events, what should I use?",
+  "answer": "Upload progress with XMLHttpRequest",
+  "file": "v19/data-and-routing/react-file-uploads/SKILL.md"
+ },
+ {
+  "question": "How do I enforce a maximum file size for direct uploads to a bucket?",
+  "answer": "POST policy uploads with a size limit",
+  "file": "v19/data-and-routing/react-file-uploads/references/resumable-and-presigned-uploads.md"
+ },
+ {
+  "question": "WebSocket or server-sent events for in-app notifications?",
+  "answer": "Decision table: which realtime transport",
+  "file": "v19/data-and-routing/react-realtime/SKILL.md"
+ },
+ {
+  "question": "After every deploy all browsers reconnect at the same moment and overload the server",
+  "answer": "Reconnection with backoff and jitter",
+  "file": "v19/data-and-routing/react-realtime/SKILL.md"
+ },
+ {
+  "question": "EventSource cannot send my Authorization header",
+  "answer": "Server-Sent Events with custom headers",
+  "file": "v19/data-and-routing/react-realtime/references/realtime-recipes.md"
+ },
+ {
+  "question": "Is it safe to keep the access token in localStorage in a React SPA?",
+  "answer": "Where tokens and sessions may live",
+  "file": "v19/data-and-routing/react-auth-flows/SKILL.md"
+ },
+ {
+  "question": "Several API calls get 401 at the same time and users get signed out",
+  "answer": "Token refresh with a single in-flight request",
+  "file": "v19/data-and-routing/react-auth-flows/SKILL.md"
+ },
+ {
+  "question": "What is a backend-for-frontend and how does it handle OAuth tokens?",
+  "answer": "The backend-for-frontend (BFF) pattern",
+  "file": "v19/data-and-routing/react-auth-flows/references/oidc-pkce-and-bff.md"
+ },
+ {
+  "question": "Recharts, visx or ECharts for a dashboard with a hundred thousand points?",
+  "answer": "Decision table: which chart library",
+  "file": "v19/ui/react-charts-and-dataviz/SKILL.md"
+ },
+ {
+  "question": "How do I make a line chart usable for screen reader users?",
+  "answer": "Accessible charts: names, keyboard and a data table",
+  "file": "v19/ui/react-charts-and-dataviz/SKILL.md"
+ },
+ {
+  "question": "How do I thin out a huge time series before drawing it?",
+  "answer": "Downsampling a series with Largest-Triangle-Three-Buckets",
+  "file": "v19/ui/react-charts-and-dataviz/references/chart-recipes.md"
+ },
+ {
+  "question": "useChat no longer gives me input and handleSubmit",
+  "answer": "code written for AI SDK 4",
+  "file": "v19/ui/react-ai-chat-ui/SKILL.md"
+ },
+ {
+  "question": "The user clicks Approve on a tool call but the assistant never continues",
+  "answer": "Approve does nothing; the tool never runs",
+  "file": "v19/ui/react-ai-chat-ui/SKILL.md"
+ },
+ {
+  "question": "How do I send only the newest chat message and load history on the server?",
+  "answer": "Send only the last message to the server",
+  "file": "v19/ui/react-ai-chat-ui/references/ai-chat-recipes.md"
+ },
+ {
+  "question": "Tiptap or Lexical for a notes app with mentions and co-editing?",
+  "answer": "Decision table: which editor",
+  "file": "v19/ui/react-rich-text-editors/SKILL.md"
+ },
+ {
+  "question": "Undo behaves strangely once I add Yjs collaboration to the editor",
+  "answer": "Undo jumps or corrupts text under collaboration",
+  "file": "v19/ui/react-rich-text-editors/SKILL.md"
+ },
+ {
+  "question": "How do I show an @mention suggestion list in Tiptap 3?",
+  "answer": "A mention popup renderer for Tiptap 3",
+  "file": "v19/ui/react-rich-text-editors/references/collaboration-and-lexical.md"
+ },
+ {
+  "question": "My react-three-fiber product viewer keeps the fan running while nothing moves",
+  "answer": "Render on demand with frameloop and invalidate",
+  "file": "v19/ui/react-3d-and-canvas/SKILL.md"
+ },
+ {
+  "question": "Animations in useFrame stutter and React re-renders every frame",
+  "answer": "Animate in useFrame through refs, not state",
+  "file": "v19/ui/react-3d-and-canvas/SKILL.md"
+ },
+ {
+  "question": "How do I stop a canvas from rendering when it scrolls out of view?",
+  "answer": "Pause scenes that are off screen",
+  "file": "v19/ui/react-3d-and-canvas/references/canvas-and-3d-recipes.md"
+ },
+ {
+  "question": "Users still get the old app days after I deploy my PWA",
+  "answer": "Users see the old version for days after a deploy",
+  "file": "v19/production/react-pwa-and-offline/SKILL.md"
+ },
+ {
+  "question": "Which service worker caching strategy fits API calls, images and hashed assets?",
+  "answer": "Caching strategies per request type",
+  "file": "v19/production/react-pwa-and-offline/SKILL.md"
+ },
+ {
+  "question": "How do I keep TanStack Query data available offline across reloads?",
+  "answer": "Persist the TanStack Query cache to IndexedDB",
+  "file": "v19/production/react-pwa-and-offline/references/offline-data-and-custom-sw.md"
+ },
+ {
+  "question": "Refreshing a deep link on my static host returns 404",
+  "answer": "The SPA fallback on static hosts",
+  "file": "v19/production/react-build-and-deploy/SKILL.md"
+ },
+ {
+  "question": "How can one Docker image use a different API URL in staging and production?",
+  "answer": "Build-time VITE_ variables and runtime configuration",
+  "file": "v19/production/react-build-and-deploy/SKILL.md"
+ },
+ {
+  "question": "How do I serve index.html for app routes on CloudFront without hiding real 404s?",
+  "answer": "S3 and CloudFront with a viewer-request function",
+  "file": "v19/production/react-build-and-deploy/references/hosting-recipes.md"
+ },
+ {
+  "question": "How should I organize folders in a React app that keeps growing?",
+  "answer": "Feature folders over type folders",
+  "file": "v19/core/react-architecture/SKILL.md"
+ },
+ {
+  "question": "May one feature import components straight from another feature's folder?",
+  "answer": "Layers and one dependency direction",
+  "file": "v19/core/react-architecture/SKILL.md"
+ },
+ {
+  "question": "How do I move a components/hooks/services codebase to feature folders without a big rewrite?",
+  "answer": "Migrating from type folders to feature folders incrementally",
+  "file": "v19/core/react-architecture/references/growing-a-react-codebase.md"
+ },
+ {
+  "question": "How do I label review comments so authors know what must be fixed?",
+  "answer": "Decision table: how to classify a review comment",
+  "file": "v19/testing/react-code-review/SKILL.md"
+ },
+ {
+  "question": "In what order should I read a large React pull request?",
+  "answer": "Read the pull request in this order",
+  "file": "v19/testing/react-code-review/SKILL.md"
+ },
+ {
+  "question": "A reviewer says I copy derived state into useState, what is wrong with that?",
+  "answer": "Derived state copied into useState",
+  "file": "v19/testing/react-code-review/references/review-smells.md"
+ },
+ {
+  "question": "How do I sign in once and reuse the session in every Playwright test?",
+  "answer": "Sign in once with a setup project and storageState",
+  "file": "v19/testing/react-e2e-testing/SKILL.md"
+ },
+ {
+  "question": "My Playwright test passes even when the feature is broken",
+  "answer": "The test passes but the feature is broken",
+  "file": "v19/testing/react-e2e-testing/SKILL.md"
+ },
+ {
+  "question": "Two Playwright tests change the same global setting and clash when run in parallel",
+  "answer": "Test locks for shared resources",
+  "file": "v19/testing/react-e2e-testing/references/playwright-ci-and-debugging.md"
+ },
+ {
+  "question": "After upgrading to Sentry 11 our error events contain emails and cookies",
+  "answer": "Emails and cookies appear in error events after upgrading to Sentry 11",
+  "file": "v19/production/react-observability/SKILL.md"
+ },
+ {
+  "question": "How do I collect INP, LCP and CLS from real users?",
+  "answer": "Core Web Vitals from real users with web-vitals 6",
+  "file": "v19/production/react-observability/SKILL.md"
+ },
+ {
+  "question": "How do I find which click is making INP slow?",
+  "answer": "Debug slow interactions with INP attribution",
+  "file": "v19/production/react-observability/references/observability-recipes.md"
+ },
+ {
+  "question": "Which CI checks should block merging a React pull request?",
+  "answer": "Decision table: which gates block a merge",
+  "file": "v19/testing/react-ci-quality-gates/SKILL.md"
+ },
+ {
+  "question": "How do I fail the pull request when the JavaScript bundle grows too much?",
+  "answer": "Bundle-size budgets with size-limit",
+  "file": "v19/testing/react-ci-quality-gates/SKILL.md"
+ },
+ {
+  "question": "How do I pick sensible numbers for bundle size budgets?",
+  "answer": "Choosing bundle budget numbers",
+  "file": "v19/testing/react-ci-quality-gates/references/budgets-and-lighthouse.md"
+ },
+ {
+  "question": "My TanStack table has 50,000 rows and scrolling is really slow, can I draw only the rows on screen?",
+  "answer": "TanStack Virtual reads the table's final row model",
+  "file": "v19/ui/react-data-tables/SKILL.md"
+ },
+ {
+  "question": "Why does my useEffect fire two times and every console.log print twice when I run the app locally?",
+  "answer": "come from Strict Mode, on purpose",
+  "file": "v19/testing/react-debugging/SKILL.md"
+ },
+ {
+  "question": "How do I show prices and dates the way each user's country writes them?",
+  "answer": "Format with the current language, never with fixed patterns",
+  "file": "v19/ui/react-i18n/SKILL.md"
+ },
+ {
+  "question": "After bumping react-query to v5, cacheTime and isLoading give type errors everywhere",
+  "answer": "compiles with errors rather than failing silently",
+  "file": "v19/core/react-migrations/SKILL.md"
+ },
+ {
+  "question": "Someone uses the ?next= parameter on our login page to send people to a phishing site after they sign in",
+  "answer": "The URL parser decides, not a prefix check",
+  "file": "v19/production/react-security/SKILL.md"
+ },
+ {
+  "question": "How do I make Tailwind 4 colours switch between light and dark while the app runs?",
+  "answer": "maps utilities to variables that change at runtime",
+  "file": "v19/ui/react-styling/SKILL.md"
+ },
+ {
+  "question": "My reusable select component types the onChange item as any instead of my own type",
+  "answer": "so callbacks receive the real type",
+  "file": "v19/core/react-typescript/SKILL.md"
+ },
+ {
+  "question": "An empty optional age input fails validation with zod coerce and the form never submits",
+  "answer": "turns a blank field's",
+  "file": "v19/data-and-routing/react-forms/SKILL.md"
+ },
+ {
+  "question": "How do I stop a burst of websocket or SSE messages from re-rendering React once per message?",
+  "answer": "patch the cache once per animation frame",
+  "file": "v19/data-and-routing/react-realtime/SKILL.md"
+ },
+ {
+  "question": "Which React versions fix the remote code execution bug from October 2026 in Server Components?",
+  "answer": "19.3.1, 19.2.9, 19.1.10, 19.0.9",
+  "file": "v19/production/react-security/SKILL.md"
+ },
+ {
+  "question": "How can I read the current list of React security advisories before a release?",
+  "answer": "repos/react/react/security-advisories",
+  "file": "v19/production/react-security/SKILL.md"
+ },
+ {
+  "question": "How do I stop one component that reads localStorage from rendering on the server?",
+  "answer": "use(browser())",
+  "file": "v19/core/react-server-components/SKILL.md"
+ },
+ {
+  "question": "How do I find out in production how often components fall back to the browser?",
+  "answer": "onBrowserBailout",
+  "file": "v19/core/react-server-components/references/rsc-serialization-and-caching.md"
+ },
+ {
+  "question": "Can a server component provide context without a client wrapper?",
+  "answer": "Render Context from a Server Component",
+  "file": "v19/core/react-server-components/SKILL.md"
+ },
+ {
+  "question": "My layout and page both load the same project, how do I avoid two database queries in one request?",
+  "answer": "memoizes a function for the length of one server request",
+  "file": "v19/core/react-server-components/SKILL.md"
+ },
+ {
+  "question": "Why did a visitor see someone else's name after a server render?",
+  "answer": "Keep request data out of module variables",
+  "file": "v19/core/react-server-components/SKILL.md"
+ },
+ {
+  "question": "How can my coding agent see the React component tree of the running app?",
+  "answer": "react-devtools-cdt-mcp",
+  "file": "v19/testing/react-debugging/SKILL.md"
+ },
+ {
+  "question": "Where can an agent get the React docs as plain Markdown?",
+  "answer": "https://react.dev/llms.txt",
+  "file": "v19/testing/react-debugging/SKILL.md"
+ },
+ {
+  "question": "How do I stop the wrong theme flashing before hydration?",
+  "answer": "small blocking inline",
+  "file": "v19/testing/react-debugging/SKILL.md"
+ },
+ {
+  "question": "Why does my list row not animate in or out when I wrap its content in ViewTransition?",
+  "answer": "no DOM node of that component sits above it",
+  "file": "v19/ui/react-animation/SKILL.md"
+ },
+ {
+  "question": "How do I cancel a Web Animation I started in onEnter?",
+  "answer": "should return a cleanup",
+  "file": "v19/ui/react-animation/SKILL.md"
+ },
+ {
+  "question": "Why is there no view transition when the user presses the back button?",
+  "answer": "legacy `popstate` event",
+  "file": "v19/ui/react-animation/SKILL.md"
+ },
+ {
+  "question": "Twenty components each add a scroll listener, what should I do?",
+  "answer": "Share one listener between components",
+  "file": "v19/production/react-performance/SKILL.md"
+ },
+ {
+  "question": "preventDefault does nothing in onWheel, why?",
+  "answer": "passive at the root",
+  "file": "v19/production/react-performance/SKILL.md"
+ },
+ {
+  "question": "Should a useEffectEvent function go in the dependency array?",
+  "answer": "Leave it out of the dependency array",
+  "file": "v19/core/react-hooks-and-effects/SKILL.md"
+ },
+ {
+  "question": "Where are the React Router docs for the version I have installed?",
+  "answer": "node_modules/react-router/docs/",
+  "file": "v19/data-and-routing/react-router-data-mode/SKILL.md"
+ }
+]
