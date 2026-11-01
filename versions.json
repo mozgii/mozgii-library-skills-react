@@ -190,7 +190,8 @@
       "name": "globals",
       "ecosystem": "npm",
       "version": "17.13.0",
-      "checked": "2026-10-31"
+      "checked": "2026-10-31",
+      "held": "17.14.0 came out after this version's text was built and tested; the skills move in the next version."
     },
     {
       "name": "@hocuspocus/provider",
@@ -209,7 +210,8 @@
       "name": "i18next",
       "ecosystem": "npm",
       "version": "26.5.12",
-      "checked": "2026-10-30"
+      "checked": "2026-10-30",
+      "held": "26.6.0 came out on 2026-10-31, after this version's text was built and tested; the skills teach 26.5 and move in the next version."
     },
     {
       "name": "i18next-browser-languagedetector",
